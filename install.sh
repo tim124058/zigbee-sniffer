@@ -3,7 +3,7 @@
 sudo apt-get install -y wireshark tshark
 
 # killerbee
-sudo apt-get install -y git python-gtk2 python-cairo python-usb python-crypto python-serial python-dev libgcrypt-dev
+sudo apt-get install -y git python-pip python-gtk2 python-cairo python-usb python-crypto python-serial python-dev libgcrypt-dev
 if [ ! -d "~/scapy" ]; then
     git clone https://github.com/secdev/scapy ~/scapy
     cd ~/scapy
